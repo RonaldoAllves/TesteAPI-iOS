@@ -36,7 +36,26 @@ class MenuAPIViewController: UIViewController {
                     proximaView.TOKEN = self.TOKEN
                 }
             }
-            
+            if segue.identifier == "segueBuscarID"{
+                if let proximaView = segue.destination as? BuscarPeloIDViewController{
+                    proximaView.TOKEN = self.TOKEN
+                }
+            }
+            if segue.identifier == "segueBuscarUF"{
+                if let proximaView = segue.destination as? BuscarPeloUFViewController{
+                    proximaView.TOKEN = self.TOKEN
+                }
+            }
+            if segue.identifier == "segueAtualizar"{
+                if let proximaView = segue.destination as? AtualizarViewController{
+                    proximaView.TOKEN = self.TOKEN
+                }
+            }
+            if segue.identifier == "segueDeletar"{
+                if let proximaView = segue.destination as? DeletarViewController{
+                    proximaView.TOKEN = self.TOKEN
+                }
+            }
         }
  
     }

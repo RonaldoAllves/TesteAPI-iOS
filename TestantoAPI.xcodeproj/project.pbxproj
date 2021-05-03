@@ -17,6 +17,13 @@
 		767C0C2C263C6D83005CD350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767C0C2B263C6D83005CD350 /* Assets.xcassets */; };
 		767C0C2F263C6D83005CD350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767C0C2D263C6D83005CD350 /* LaunchScreen.storyboard */; };
 		767C0C38263C7018005CD350 /* FuncaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C0C37263C7018005CD350 /* FuncaoAPI.swift */; };
+		76845F842640163400F89120 /* ListaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F832640163400F89120 /* ListaTableViewCell.swift */; };
+		76845F872640217F00F89120 /* BuscarPeloIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F862640217F00F89120 /* BuscarPeloIDViewController.swift */; };
+		76845F8A2640270F00F89120 /* BuscarPeloUFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F892640270F00F89120 /* BuscarPeloUFViewController.swift */; };
+		76845F8D2640285000F89120 /* ListaUFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F8C2640285000F89120 /* ListaUFTableViewController.swift */; };
+		76845F9026402ADB00F89120 /* ListaUFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F8F26402ADB00F89120 /* ListaUFTableViewCell.swift */; };
+		76845F932640308C00F89120 /* AtualizarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F922640308C00F89120 /* AtualizarViewController.swift */; };
+		76845F962640372C00F89120 /* DeletarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76845F952640372C00F89120 /* DeletarViewController.swift */; };
 		76C33999263F42A400AB4276 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C33998263F42A400AB4276 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +40,13 @@
 		767C0C2E263C6D83005CD350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767C0C30263C6D83005CD350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		767C0C37263C7018005CD350 /* FuncaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncaoAPI.swift; sourceTree = "<group>"; };
+		76845F832640163400F89120 /* ListaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewCell.swift; sourceTree = "<group>"; };
+		76845F862640217F00F89120 /* BuscarPeloIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarPeloIDViewController.swift; sourceTree = "<group>"; };
+		76845F892640270F00F89120 /* BuscarPeloUFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarPeloUFViewController.swift; sourceTree = "<group>"; };
+		76845F8C2640285000F89120 /* ListaUFTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaUFTableViewController.swift; sourceTree = "<group>"; };
+		76845F8F26402ADB00F89120 /* ListaUFTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaUFTableViewCell.swift; sourceTree = "<group>"; };
+		76845F922640308C00F89120 /* AtualizarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtualizarViewController.swift; sourceTree = "<group>"; };
+		76845F952640372C00F89120 /* DeletarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletarViewController.swift; sourceTree = "<group>"; };
 		76C33998263F42A400AB4276 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +66,10 @@
 			children = (
 				765E93A8263F82F1006DA3A5 /* InserirViewController.swift */,
 				765E93AB263F92F2006DA3A5 /* ListaTableViewController.swift */,
+				76845F862640217F00F89120 /* BuscarPeloIDViewController.swift */,
+				76845F892640270F00F89120 /* BuscarPeloUFViewController.swift */,
+				76845F922640308C00F89120 /* AtualizarViewController.swift */,
+				76845F952640372C00F89120 /* DeletarViewController.swift */,
 			);
 			path = FuncionalidadesAPI;
 			sourceTree = "<group>";
@@ -94,6 +112,9 @@
 			children = (
 				76C33998263F42A400AB4276 /* AuthViewController.swift */,
 				765E93A4263F7F32006DA3A5 /* MenuAPIViewController.swift */,
+				76845F832640163400F89120 /* ListaTableViewCell.swift */,
+				76845F8C2640285000F89120 /* ListaUFTableViewController.swift */,
+				76845F8F26402ADB00F89120 /* ListaUFTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,12 +190,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				765E93A9263F82F1006DA3A5 /* InserirViewController.swift in Sources */,
+				76845F842640163400F89120 /* ListaTableViewCell.swift in Sources */,
 				765E93A5263F7F32006DA3A5 /* MenuAPIViewController.swift in Sources */,
 				767C0C38263C7018005CD350 /* FuncaoAPI.swift in Sources */,
 				767C0C27263C6D80005CD350 /* ViewController.swift in Sources */,
+				76845F8A2640270F00F89120 /* BuscarPeloUFViewController.swift in Sources */,
 				76C33999263F42A400AB4276 /* AuthViewController.swift in Sources */,
 				765E93AC263F92F2006DA3A5 /* ListaTableViewController.swift in Sources */,
+				76845F932640308C00F89120 /* AtualizarViewController.swift in Sources */,
+				76845F8D2640285000F89120 /* ListaUFTableViewController.swift in Sources */,
 				767C0C23263C6D80005CD350 /* AppDelegate.swift in Sources */,
+				76845F872640217F00F89120 /* BuscarPeloIDViewController.swift in Sources */,
+				76845F962640372C00F89120 /* DeletarViewController.swift in Sources */,
+				76845F9026402ADB00F89120 /* ListaUFTableViewCell.swift in Sources */,
 				767C0C25263C6D80005CD350 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
