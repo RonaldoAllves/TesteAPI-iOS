@@ -43,6 +43,12 @@ class DeletarViewController: UIViewController {
         //create dataTask using the session object to send data to the server
         let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
             
+            self.resultado.text = data?.description
+            
+            if(error != nil){
+                self.resultado.text = error?.localizedDescription
+            }
+            
             guard error == nil else {
                 return
             }
